@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikolinart</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#home">Nikolin<span>art</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello and welcome to</div>
+                <div class="text-2">Nikolin<span>art</span></div>
+                <a href ="#contact">Order an artwork</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/ja.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">My name is <span>Nikolina Stjepanović</span></div>
+                    <p>I am 21 years old and I am studying computer engineering 
+                        at the Faculty of Electrical Engineering, Computer Science and Information Tehnology in Osijek. 
+                        In my free time I like to paint and draw. I'm not a professional, drawing is my hobby. 
+                        The techniques I use the most are pencil, oil and ink.
+                        I showed an interest in art as a child, but I started drawing at the age of 19. 
+                        In the gallery you will be able to see some drawings created in the last two years.</p>
+                        <h3>Follow me:</h3>
+                         <div class="social-links">
+                            <a href="https://www.facebook.com/nikolinart_blog/?ref=pages_you_manage" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/?lang=hr" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/nikolinartblog/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="max-width">
+            <h2 class="title">Gallery</h2>
+            <div class="gallery-content">
+                <div class="categories">
+                    <button class="btn category" href="" data-rel="all">All</button>
+                    <button class="btn category" data-rel="pencil">Pencil</button>
+                    <button class="btn category" data-rel="oil">Oil painting</button>
+                    <button class="btn category" data-rel="ink">Pen and ink</button>
+                  </div> 
+                   
+                  <div id="portfolio">
+                    <div class="tile scale-anm oil all">
+                          <img src="images/dejzi.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm ink all">
+                      <img src="images/talk.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm ink all">
+                      <img src="images/zebra.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm ink all">
+                              <img src="images/slon.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">
+                          <img src="images/vrata.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">
+                              <img src="images/balon.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm oil all">
+                      <img src="images/planinaa.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm ink all">
+                      <img src="images/mask.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">
+                          <img src="images/kap.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">
+                             <img src="images/keks.JPG" alt="" /> 
+                    </div>
+                    <div class="tile scale-anm oil all">
+                          <img src="images/cream.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">
+                              <img src="images/violin.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm ink all">
+                         <img src="images/sidro.JPG" alt="" /> 
+                    </div>
+                    <div class="tile scale-anm ink all">     
+                        <img src="images/bee.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">     
+                        <img src="images/batery.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">     
+                        <img src="images/borba.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm oil all">
+                            <img src="images/jedna.JPG" alt="" />  
+                    </div>
+                    <div class="tile scale-anm pencil all">
+                              <img src="images/puz.JPG" alt="" />
+                    </div> 
+                    <div class="tile scale-anm pencil all">     
+                        <img src="images/papiga.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm ink all">
+                        <img src="images/shoes.JPG" alt="" />  
+                    </div> 
+                    <div class="tile scale-anm pencil all">     
+                              <img src="images/princ.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm oil all">     
+                        <img src="images/sunce.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">     
+                        <img src="images/konj.jpg" alt="" />
+                    </div>
+                    <div class="tile scale-anm ink all">     
+                        <img src="images/lost.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm oil all">     
+                        <img src="images/planina.JPG" alt="" />
+                    </div>
+                    <div class="tile scale-anm pencil all">     
+                        <img src="images/sator.JPG" alt="" />
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Order an artwork</div>
+                    <p>If you like some of my works, and if you want to order a drawing for your loved one, feel free to contact me. I will try to answer the queries the same day.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Nikolina Stjepanović</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Osijek, Croatia</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">nikolina.stjepanovic1@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form onsubmit="sendEmail(); reset(); return false;" action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input id="name" type="text" placeholder="Your name" required>
+                            </div>
+                            <div class="field email">
+                                <input id="email" type="email" placeholder="Your email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input id="subject" type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type ="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Created By <a href="https://www.instagram.com/nikolinastjepanovicc/">Nikolina Stjepanović</a></span>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
